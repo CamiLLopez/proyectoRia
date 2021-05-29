@@ -1,0 +1,22 @@
+@mixin botones ($font, $color, $size) {
+   font-family: $font;
+   color: $color;
+   font-size: $size;
+}
+
+
+.contenedor--acordion{
+   
+.modificador-boton{
+    @include botones($type-font, $color-morado, 0.8em);
+   
+}
+.modificador-boton:not(.collapsed){
+   @include botones($type-font, $color-morado, 0.8em);
+   
+}
+.acordion-cuerpo{
+   @include botones($type-font, 1em);
+}
+
+}

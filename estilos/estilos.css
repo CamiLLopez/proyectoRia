@@ -1,0 +1,230 @@
+@charset "UTF-8";
+.header {
+  background-image: linear-gradient(to bottom, #F2E9E4, white); }
+  .header .header__logo {
+    margin-bottom: 1.2em;
+    padding: 0.8em; }
+  .header .header__logo:hover {
+    transform: rotateX(35deg); }
+  .header .header__menu {
+    font-size: 1em;
+    font-family: "Open Sans", sans-serif; }
+    .header .header__menu .header__menu--item {
+      text-decoration: none;
+      color: #B88B84;
+      font-size: 1.2em;
+      font-family: "Open Sans", sans-serif; }
+    .header .header__menu .header__menu--item:hover {
+      color: #F5A77A;
+      font-weight: bold; }
+
+.container__pieDePagina {
+  background-color: #8BA6A6;
+  margin-top: 4em;
+  text-align: center; }
+  .container__pieDePagina .container__pieDePagina__title {
+    font-style: italic;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    color: black; }
+  .container__pieDePagina .container__pieDePagina__link {
+    text-decoration: none;
+    font-style: italic;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    color: black;
+    font-weight: bold; }
+  .container__pieDePagina .container__pieDePagina__link:hover {
+    color: #F5A77A; }
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .redes .redes__title {
+    font-family: "Open Sans", sans-serif;
+    color: #F5A77A;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 2em;
+    margin-top: 5em; }
+  .redes .redes__logo {
+    width: 4em;
+    border-radius: 30%;
+    transition: all 1s; }
+  .redes .redes__logo:hover {
+    width: 4em;
+    height: 3.8em; }
+
+.container__informacion {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  padding-left: 9em;
+  justify-content: center;
+  margin: 5em; }
+  .container__informacion .container__informacion__logo {
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    color: #8BA6A6;
+    border-radius: 30%;
+    width: 5em;
+    transition: all 1s; }
+  .container__informacion .container__informacion__logo:hover {
+    width: 5em;
+    height: 4.8em; }
+
+.container-cards {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  justify-content: space-evenly; }
+  .container-cards .card-miniContainer .card-img {
+    padding: 1em;
+    height: 20rem; }
+  .container-cards .card-body .card-text {
+    padding: 0.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    text-align: start;
+    font-size: 1rem;
+    text-decoration: solid;
+    color: #B88B84; }
+
+.promocion__titulo {
+  font-family: "Open Sans", sans-serif;
+  color: #F5A77A;
+  font-weight: bold;
+  font-size: 2em;
+  letter-spacing: 0.5em;
+  text-align: center;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  margin: 1em;
+  padding: 1em; }
+
+.row-form {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around; }
+  .row-form .form__control-label {
+    font-size: 0.9em;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    padding: 0.5em;
+    margin-bottom: 0.3em;
+    margin-top: 0.5em; }
+  .row-form .form__label-dato {
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 0.3em;
+    margin-top: 0.5em; }
+  .row-form .form__btn-light:hover {
+    background-color: #B88B84; }
+  .row-form .form__check-input:checked {
+    background-color: #B88B84;
+    margin-top: 0.8em; }
+
+.form__imgMap {
+  width: 25em;
+  height: 18em;
+  margin-top: 10em;
+  margin-bottom: 5em;
+  margin-left: auto;
+  margin-right: auto; }
+
+.fundadoras__titulo {
+  font-family: "Open Sans", sans-serif;
+  color: #F5A77A;
+  font-weight: bold;
+  font-size: 2em;
+  letter-spacing: 0.5em;
+  text-align: center;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  margin: 1em;
+  padding: 1em; }
+
+.fundadoras__bloque {
+  justify-content: space-between;
+  align-items: center; }
+  .fundadoras__bloque .fundadoras__Img {
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+    height: 20em;
+    width: 18em;
+    border: dotted 0.5em #F2E9E4;
+    padding: 0.8em;
+    animation-duration: 4s;
+    animation-name: aparecer; }
+  .fundadoras__bloque .fundadoras__parrafo {
+    font-family: "Open Sans", sans-serif; }
+
+.contenedor--acordion .modificador-boton {
+  font-family: "Open Sans", sans-serif;
+  color: #B88B84;
+  background-color: #F2E9E4;
+  font-size: 0.8em; }
+
+.contenedor--acordion .modificador-boton:not(.collapsed) {
+  font-family: "Open Sans", sans-serif;
+  color: #B88B84;
+  background-color: #F2E9E4;
+  font-size: 0.8em; }
+
+.contenedor--acordion .accordion-buttom:focus {
+  outline: none; }
+
+.contenedor--acordion .acordion-cuerpo {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  background-color: #F2E9E4;
+  font-size: 1em; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+.container__videoPresentacion {
+  display: flex;
+  flex-direction: row; }
+  .container__videoPresentacion .container__videoPresentacion--tamaño {
+    width: 70%;
+    height: 90%;
+    margin-right: auto;
+    margin-left: auto; }
+
+.presentacion, .fundadoras__bloque .fundadoras__parrafo {
+  background-image: linear-gradient(to top, #F2E9E4, white); }
+  .presentacion .presentacion__titulo, .fundadoras__bloque .fundadoras__parrafo .presentacion__titulo {
+    font-family: "Open Sans", sans-serif;
+    color: #F5A77A;
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 0.5em;
+    text-align: center;
+    animation-duration: 3s;
+    animation-name: aparecer;
+    margin: 1em;
+    padding: 1em; }
+  .presentacion .presentacion__parrafoPrincipal, .fundadoras__bloque .fundadoras__parrafo .presentacion__parrafoPrincipal {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    padding: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+    animation-duration: 3s;
+    animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0, 5; }
+  100% {
+    opacity: 1; } }

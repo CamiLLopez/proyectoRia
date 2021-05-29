@@ -1,0 +1,34 @@
+.fundadoras__titulo{
+        font-family: $type-font;
+        color: $color-salmon;
+        font-weight: bold;
+        font-size: 2em;
+        letter-spacing: 0.5em;
+        text-align: center;
+        animation-duration: 3s;
+        animation-name: aparecer;
+        margin: 1em;
+        padding: 1em;
+}
+.fundadoras__bloque{
+    justify-content: space-between;
+    align-items: center;
+    
+    .fundadoras__Img{
+        margin-top: 2em;
+        margin-left: 3em;
+        margin-right: 3em;
+        height: 20em;
+        width: 18em;
+        border: dotted 0.5em $color-crema;
+        padding: 0.8em;
+        animation-duration: 4s;
+        animation-name: aparecer;
+    }
+
+    .fundadoras__parrafo{
+        @extend.presentacion;
+        font-family: $type-font;
+    }
+    
+}

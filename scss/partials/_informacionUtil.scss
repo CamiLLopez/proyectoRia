@@ -1,0 +1,22 @@
+.container__informacion {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 5em;
+
+    .container__informacion__logo {
+        font-family: $type-font;
+        text-decoration: none;
+        color: $color-footer;
+        border-radius: 30%;
+        width: 5em;
+        transition: all 1s;
+    }
+
+    .container__informacion__logo:hover {
+        width: 5em;
+        height: 4.8em;
+
+    }
+}

@@ -1,0 +1,26 @@
+.container__pieDePagina {
+    background-color: $color-footer;
+    margin-top: 4em;
+    text-align: center;
+
+    .container__pieDePagina__title {
+        font-style: italic;
+        font-family: $type-font;
+        font-size: 1em;
+        color: black;
+    }
+
+    .container__pieDePagina__link {
+        text-decoration: none;
+        font-style: italic;
+        font-family: $type-font;
+        font-size: 1em;
+        color: black;
+        font-weight: bold;
+    }
+
+    .container__pieDePagina__link:hover {
+        color: $color-salmon;
+
+    }
+}
