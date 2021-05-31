@@ -1,6 +1,6 @@
 .header {
-    background-image: linear-gradient(to bottom, $color-crema, white);
-   
+    /*background-image: linear-gradient(to bottom, $color-crema, white);*/
+    background-color: white;
 
     .header__logo {
         margin-bottom: 1.2em;
@@ -8,7 +8,7 @@
     }
 
     .header__logo:hover {
-        transform: rotateX(35deg);
+        transform: rotateX(30deg);
 
     }
 
@@ -18,7 +18,8 @@
 
         .header__menu--item {
             text-decoration: none;
-            color: $color-morado;
+            color: black;
+            font-weight: 500;
             font-size: 1.2em;
             font-family: $type-font;
 
