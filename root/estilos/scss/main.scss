@@ -5,14 +5,15 @@ $color-salmon: #F5A77A;
 $color-footer: #8BA6A6;
 
 
-@import "partials/header";
-@import "partials/footer";
-@import "partials/redes";
-@import "partials/informacionUtil";
-@import "pages_scss/catalogo";
-@import "pages_scss/contacto";
-@import "pages_scss/nosotras";
-@import "pages_scss/preguntasFrecuentes";
+@import "../scss/partials/header";
+@import "../scss/partials/footer";
+@import "../scss/partials/redes";
+@import "../scss/partials/informacionUtil";
+@import "../scss/pages_scss/catalogo";
+@import "../scss/pages_scss/contacto";
+@import "../scss/pages_scss/nosotras";
+@import "../scss/pages_scss/preguntasFrecuentes";
+
 
 * {
     padding: 0;

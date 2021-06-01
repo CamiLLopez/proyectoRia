@@ -11,8 +11,8 @@
     <meta name="keywords" content="Trajes de baño, tangas, bikinis, Barcelona, España">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../estilos/estilos.css">
+    <link rel="stylesheet" href="../../root/scripts/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../root/estilos/estilos.css">
 </head>
 
 <body>
@@ -20,14 +20,14 @@
         <header class="d-flex justify-content-between header">
             <!--aqui va el Logo-->
             <div class="header__logo">
-                <a href="../pages/index.html"><img src="../../estilos/imagenes/logo.jpg" class="img-fluid rounded"
+                <a href="../../root/index.html"><img src="../../root/assets/imagenes/logo.jpg" class="img-fluid rounded"
                         alt="logo"></a>
             </div>
             <!--este es el menu que esta en todas las paginas-->
             <nav class="header__menu navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <div class="row">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        <button class="navbar-toggler boton-modificado" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -36,31 +36,34 @@
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item ">
                                     <a class="nav-link active header__menu--item" aria-current="page"
-                                        href="../pages/sobreNosotras.html">Sobre Nosotras</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link header__menu--item" href="../pages/catalogo.html">Catalogo</a>
+                                        href="../../root/pages/sobreNosotras.html ">Sobre Nosotras</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link header__menu--item"
-                                        href="../pages/preguntasFrecuentes.html">Dudas frecuentes</a>
+                                        href="../../root/pages/catalogo.html">Catalogo</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link header__menu--item" href="../pages/contacto.html">Contacto</a>
+                                    <a class="nav-link header__menu--item"
+                                        href="../../root/pages/preguntasFrecuentes.html">Dudas frecuentes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link header__menu--item"
+                                        href="../../root/pages/contacto.html">Contacto</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </nav>
-        </header>
+    </div>
+    </nav>
+    </header>
     </div>
     <!--Aqui se completa con la historia del empredimiento-->
     <h1 class="fundadoras__titulo">Quienes somos?</h1>
     <div class="container">
         <div class="row fundadoras__bloque">
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                <img src="../../estilos/imagenes/fundadora1.JPG" alt="Fundadora Belen" class="rounded fundadoras__Img">
+                <img src="../../root/assets/imagenes/fundadora1.JPG" alt="Fundadora Belen" class="rounded fundadoras__Img">
             </div>
             <div class=" col-lg-4 col-md-12 col-sm-12 col-xs-12 fundadoras__parrafo">
                 <p>
@@ -90,7 +93,7 @@
             </div>
 
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                <img src="../../estilos/imagenes/fundadora2.JPG" alt="Fundadora Agostina"
+                <img src="../../root/assets/imagenes/fundadora2.JPG" alt="Fundadora Agostina"
                     class="rounded fundadoras__Img">
             </div>
 
@@ -102,7 +105,7 @@
         <!--logos instagram y facebook con enlaces a perfil-->
         <h3 class="redes__title">Seguinos en Redes</h3>
         <div class="redes">
-            <a href="https://www.instagram.com/riabeachwear/"><img src="../../estilos/imagenes/logoInstagram.png"
+            <a href="https://www.instagram.com/riabeachwear/"><img src="../../root/assets/imagenes/logoInstagram.png"
                     alt="logo Instagram" class="img-fluid redes__logo"></a>
         </div>
     </div>
@@ -110,19 +113,20 @@
     <div class="container">
         <!--enlaces internos a otras paginas de la web-->
         <div class="row container__informacion">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                <a href="../pages/preguntasFrecuentes.html"><img src="../../estilos/imagenes/logoCamion.jpg"
+            <div class="col-4">
+                <a href="../../root/pages/preguntasFrecuentes.html"><img src="../../root/assets/imagenes/logoCamion.jpg"
                         alt="envios" class="container__informacion__logo img-fluid"></a>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                <a href="../pages/preguntasFrecuentes.html"><img src="../../estilos/imagenes/logoTarjeta.png"
+            <div class="col-4">
+                <a href="../../root/pages/preguntasFrecuentes.html"><img src="../../root/assets/imagenes/logoTarjeta.png"
                         alt="pagos" class="container__informacion__logo img-fluid"></a>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                <a href="../pages/contacto.html"><img src="../../estilos/imagenes/logoNewsletter.png"
+            <div class="col-4">
+                <a href="../../root/pages/contacto.html"><img src="../../root/assets/imagenes/logoNewsletter.png"
                         alt="logo newsletter" class="container__informacion__logo img-fluid"></a>
             </div>
         </div>
+    </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
@@ -132,13 +136,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
         integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
     </script>
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="../../root/scripts/js/bootstrap.min.js"></script>
 
 </body>
 <div class="container-fluid container__pieDePagina">
     <footer class=" col-sm-12 col-md-12 col-lg-12">
         <h5 class="container__pieDePagina__title">Todos los derechos reservados</h5>
-        <a href="../pages/contacto.html" class="container__pieDePagina__link">Contacto</a>
+        <a href="../../root/pages/contacto.html" class="container__pieDePagina__link">Contacto</a>
     </footer>
 </div>
 
