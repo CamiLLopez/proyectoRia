@@ -5,6 +5,7 @@
     .header__logo {
         margin-bottom: 1.2em;
         padding: 0.8em;
+        
     }
 
     .header__logo:hover {
@@ -18,17 +19,26 @@
 
         .header__menu--item {
             text-decoration: none;
-            color: black;
+            color: $color-menu;
             font-weight: 500;
             font-size: 1.2em;
             font-family: $type-font;
-
         }
 
         .header__menu--item:hover {
             color: $color-salmon;
             font-weight: bold;
-        
+
         }
     }
 }
+
+.container__encabezado {
+    background-color: $color-encabezado;
+    text-align: center;
+    font-family: $type-font;
+    font-size: 1rem;
+    color: $color-crema;
+
+}
+
