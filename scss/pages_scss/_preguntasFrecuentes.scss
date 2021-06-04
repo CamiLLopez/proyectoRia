@@ -16,7 +16,7 @@
    
 }
 .acordion-cuerpo{
-   @include botones($type-font, 1em);
+   @include botones($type-font, $color-morado, 1em);
 }
 
 }
