@@ -81,15 +81,14 @@
     <section class="container__videoPresentacion embed-responsive embed-responsive-1by1">
       <video controls autoplay="autoplay" muted preload="auto"
         class="embed-responsive-item container__videoPresentacion--tamaño">
-        <source src="../root/assets/videos/videopresentacion.mp4" type="video/mp4">
+        <source src="../root/assets/videos/videoPresentacion.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </section>
 
 
-
+    <!--logos instagram con enlace a perfil-->
     <div class="container redes">
-      <!--logos instagram y facebook con enlaces a perfil-->
       <h3 class="redes__title">Seguinos en Redes</h3>
       <div class="redes">
         <a href="https://www.instagram.com/riabeachwear/"><img src="../root/assets/imagenes/logoInstagram.png"
@@ -97,8 +96,8 @@
       </div>
     </div>
 
+    <!--enlaces internos a otras paginas de la web-->
     <div class="container">
-      <!--enlaces internos a otras paginas de la web-->
       <div class="row container__informacion">
         <div class="col-4">
           <a href="../root/pages/preguntasFrecuentes.html"><img src="../root/assets/imagenes/logoCamion.jpg"
@@ -115,6 +114,20 @@
       </div>
     </div>
   </div>
+  <div class="container-fluid container_newsletter">
+    <div class="row">
+      <h5 class="newsletter_titulo">Newsletter</h5>
+      <p class="newsletter_contenido">¡Novedades y contenido exclusivo (made for you)!</p>
+      <form class="newsletter_contenido">
+        <div class="col-6">
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Tu correo electronico">
+        </div>
+        <div class="col-6">
+          <button type="submit" value="Enviar" class="btn btn-light form-label">Suscribite!</button>
+        </div>
+      </form>
+    </div>
+  </div>
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
@@ -128,7 +141,7 @@
 </body>
 <div class="container-fluid container__pieDePagina">
   <footer class=" col-sm-12 col-md-12 col-lg-12">
-    <h5 class="container__pieDePagina__title">Todos los derechos reservados</h5>
+    <h6 class="container__pieDePagina__title">Todos los derechos reservados</h6>
     <a href="../root/pages/contacto.html" class="container__pieDePagina__link">Contacto</a>
   </footer>
 </div>
