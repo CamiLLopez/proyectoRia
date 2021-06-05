@@ -33,3 +33,36 @@
     }
     
 }
+
+@media (max-width:640px) {
+
+    .fundadoras__titulo{
+        font-size: 1.5rem;
+        letter-spacing: 0.3rem;
+        
+    }
+    .fundadoras__bloque{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    
+        .fundadoras__Img{
+            height: 18rem;
+            width: 15rem;
+            border: dotted 0.5rem $color-crema;
+            padding: 0.8rem;
+            animation-duration: 4s;
+            animation-name: aparecer;
+        }
+
+        .fundadoras__parrafo{
+            font-family: $type-font;
+            font-size: 0.8rem;
+            text-align: center;
+            padding: 0.7rem;
+            margin: 0.7rem;
+        }
+    
+    }
+}

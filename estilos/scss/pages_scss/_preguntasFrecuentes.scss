@@ -7,16 +7,17 @@
 
 .contenedor--acordion{
    
-.modificador-boton{
-    @include botones($type-font, $color-morado, 0.8em);
-   
-}
-.modificador-boton:not(.collapsed){
-   @include botones($type-font, $color-morado, 0.8em);
-   
-}
-.acordion-cuerpo{
-   @include botones($type-font, $color-morado, 1em);
-}
+   .modificador-boton{
+      @include botones($type-font, $color-morado, 1rem);
+      
+   }
+   .modificador-boton:not(.collapsed){
+      @include botones($type-font, $color-morado, 1rem);
+      
+   }
+   .acordion-cuerpo{
+      @include botones($type-font, $color-morado, 1rem);
+   }
 
 }
+

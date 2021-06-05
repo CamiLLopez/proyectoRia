@@ -74,3 +74,18 @@ $color-menu: black;
     flex-wrap: nowrap;
 }
 
+@media (max-width: 640px) {
+
+    .presentacion{
+        .presentacion__titulo {
+            font-family: $type-font;
+            font-weight: bold;
+            font-size: 1rem;
+            letter-spacing: 0.3rem;
+            margin: 0.5rem;
+            padding: 0.2rem;
+        }
+    }
+    
+
+}

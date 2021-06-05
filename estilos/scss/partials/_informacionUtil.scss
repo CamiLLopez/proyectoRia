@@ -20,3 +20,26 @@
 
     }
 }
+@media (max-width:640px) {
+    .container__informacion {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-self: center;
+        margin: 5rem;
+        padding-left: 1rem;
+
+        .container__informacion__logo {
+            width: 4rem;
+            transition: all 1s;
+        }
+
+        .container__informacion__logo:hover {
+            width: 4rem;
+            height: 3.8rem;
+    
+        }
+    }
+
+}
+

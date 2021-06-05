@@ -7,21 +7,45 @@
         font-family: $type-font;
         color: $color-salmon;
         font-weight: bold;
-        letter-spacing: 0.5em;
-        font-size: 1.5em;
+        letter-spacing: 0.5rem;
+        font-size: 1.5rem;
         text-align: center;
-        padding: 2em;
-        margin-top: 5em;
+        padding: 2rem;
+        margin-top: 5rem;
     }
 
     .redes__logo {
-        width: 4em;
+        width: 4rem;
         border-radius: 30%;
         transition: all 1s;
     }
 
     .redes__logo:hover {
-        width: 4em;
-        height: 3.8em;
+        width: 4rem;
+        height: 3.8rem;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .redes{
+        .redes__title {
+            letter-spacing: 0.2rem;
+            font-size: 0.8rem;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 3rem;
+        }
+    
+        .redes__logo {
+            width: 2rem;
+            border-radius: 30%;
+            transition: all 1s;
+        }
+    
+        .redes__logo:hover {
+            width: 3rem;
+            height: 2.8rem;
+        }
     }
 }
