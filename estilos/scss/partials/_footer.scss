@@ -1,13 +1,65 @@
+.container_newsletter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    background-color: $color-encabezado;
+    font-family: $type-font;
+    margin-top: 4rem;
+    padding: 2rem;
+
+    .newsletter_titulo {
+        text-align: center;
+        color: white;
+        font-weight: 600;
+        font-size: 2rem;
+        word-spacing: 0.5rem;
+        text-transform: uppercase
+    }
+
+    .newsletter_parrafo {
+        text-align: center;
+        color: white;
+        font-size: 1rem;
+        font-family: $type-font;
+    }
+
+
+    .newsletter_contenido {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-items: center;
+       
+        .form-newsletter {
+            color: $color-morado;
+            text-align: justify;
+            font-weight: 500;
+            font-size: 1rem;
+    
+            .btn-newsletter {
+                font-size: 1rem;
+                text-decoration: none;
+
+
+            }
+        }
+    }
+}    
+
 .container__pieDePagina {
     background-color: $color-footer;
-    margin-top: 4em;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
     .container__pieDePagina__title {
         font-style: italic;
         font-family: $type-font;
-        font-size: 1em;
-        color: white;
+        font-size: 1rem;
+        color: $color-letras_footer;
     }
 
     .container__pieDePagina__link {
@@ -15,7 +67,7 @@
         font-style: italic;
         font-family: $type-font;
         font-size: 1em;
-        color:white;
+        color:$color-letras_footer;
         font-weight: bold;
     }
 

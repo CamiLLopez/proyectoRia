@@ -25,8 +25,7 @@
         <!--aqui va el Logo-->
         <header class="d-flex justify-content-between header">
             <div class="header__logo">
-                <a href="../index.html"><img src="../assets/imagenes/logo.jpg" class="img-fluid rounded"
-                        alt="logo"></a>
+                <a href="../index.html"><img src="../assets/imagenes/logo.jpg" class="img-fluid rounded" alt="logo"></a>
             </div>
             <!--este es el menu que esta en todas las paginas-->
             <nav class="header__menu navbar navbar-expand-lg">
@@ -36,6 +35,7 @@
                             data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
+                            <img src="../assets/imagenes/menuHambur.png">
                         </button>
                         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -44,16 +44,14 @@
                                         href="../pages/sobreNosotras.html ">Sobre Nosotras</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link header__menu--item"
-                                        href="../pages/catalogo.html">Catalogo</a>
+                                    <a class="nav-link header__menu--item" href="../pages/catalogo.html">Catalogo</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link header__menu--item"
                                         href="../pages/preguntasFrecuentes.html">Dudas frecuentes</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link header__menu--item"
-                                        href="../pages/contacto.html">Contacto</a>
+                                    <a class="nav-link header__menu--item" href="../pages/contacto.html">Contacto</a>
                                 </li>
                             </ul>
                         </div>
@@ -64,66 +62,6 @@
     </header>
     </div>
 
-    <!--Aqui debe ir una galeria de fotos con precios para comprar, 3 secciones-->
-    <div class="container">
-        <div class="row row--cards container-cards">
-            <div class="card card-miniContainer col-lg-4 col-xs-12 col-sm-12 col-md-6" style="width: 18rem;">
-                <img src="../assets/imagenes/fotoAgos.png" class="card-img-top card-img" alt="catalogo3">
-                <div class="card-body">
-                    <p class="card-text">Bikini Bruma Gold ✨ <br> Sujetador Triangular con tirantes regulables <br>
-                        Braga
-                        estilo tanga con cierre de tiras ajustables</p>
-                </div>
-
-            </div>
-            <div class="card card-miniContainer col-lg-4 col-xs-12 col-sm-12 col-md-6" style="width: 18rem;">
-                <img src="../assets/imagenes/fotoAgus.png" class="card-img-top card-img" alt="catalogo1">
-                <div class="card-body">
-                    <p class="card-text"> Bikini Malva Pink 🌸 <br> Sujetador Triangular <br> Braga estilo tanga con
-                        cierre
-                        de tiras ajustables</p>
-                </div>
-            </div>
-            <div class="card card-miniContainer col-lg-4 col-xs-12 col-sm-12 col-md-6" style="width: 18rem;">
-                <img src="../assets/imagenes/fotoDelfi.png" class="card-img-top card-img" alt="catalogo2">
-                <div class="card-body">
-                    <p class="card-text">Bikini Bruma Red 🍉 <br> Sujetador Triangular con tirantes regulables <br>
-                        Braga
-                        estilo tanga con cierre de tiras ajustables</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row row--cards container-cards">
-            <div class="card card-miniContainer col-lg-4 col-xs-12 col-sm-12 col-md-6" style="width: 18rem;">
-                <img src="../assets/imagenes/fotoBikini1.png" class="card-img-top card-img" alt="catalogo3">
-                <div class="card-body">
-                    <p class="card-text">Bikini Ágata Green 🐚 <br> Top estilo deportivo con escote redondo y detalle de
-                        abertura <br> Braga
-                        estilo tanga</p>
-                </div>
-
-            </div>
-            <div class="card card-miniContainer col-lg-4 col-xs-12 col-sm-12 col-md-6" style="width: 18rem;">
-                <img src="../assets/imagenes/bikiniVaca.png" class="card-img-top card-img" alt="catalogo1">
-                <div class="card-body">
-                    <p class="card-text">Bikini Print 🐄 <br> Sujetador Triangular <br> Braga estilo tanga con cierre
-                        de tiras ajustables</p>
-                </div>
-            </div>
-            <div class="card card-miniContainer col-lg-4 col-xs-12 col-sm-12 col-md-6" style="width: 18rem;">
-                <img src="../assets/imagenes/bikiniNegra.png" class="card-img-top card-img" alt="catalogo2">
-                <div class="card-body">
-                    <p class="card-text">Bikini Mina Black 🌑 <br> Sujetador escote V, con cierre gancho metálico en
-                        espalda
-                        <br> Braga
-                        estilo tanga con cierre de tiras ajustables</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!--Articulos en promocion o con descuento-->
     <div>
         <h1 class="promocion__titulo">Descubri nuestras promociones!</h1>
@@ -132,18 +70,20 @@
         <div class="row row--carrousel">
             <div class="col-4">
             </div>
-            <div id="carouselExampleFade" class="col-sm-4 col-md-4 col-lg-4 carousel slide carousel-fade"
+            <div id="carouselExampleFade" class="col-lg-12 carousel slide carousel-fade"
                 data-bs-ride="carousel">
                 <div class="carousel-inner carousel-inner--tamaño d-flex flex-column justify-content-center">
                     <div class="carousel-item active">
-                        <img src="../assets/imagenes/foto1.png" class="d-block w-100" alt="Fotos de promocion.">
+                        <img src="../assets/imagenes/carrusel1.png" class="d-block w-100" alt="Fotos de promocion.">
                     </div>
                     <div class="carousel-item">
-                        <img src="../assets/imagenes/foto2.JPG" class="d-block w-100"
-                            alt="Fotos de promociones">
+                        <img src="../assets/imagenes/carrusel2.png" class="d-block w-100" alt="Fotos de promocion">
                     </div>
                     <div class="carousel-item">
-                        <img src="../assets/imagenes/foto3.JPG" class="d-block w-100" alt="Fotos de promocion">
+                        <img src="../assets/imagenes/carrusel3.png" class="d-block w-100" alt="Fotos de promocion">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/imagenes/carrusel4.png" class="d-block w-100" alt="Fotos de promocion">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
@@ -157,11 +97,70 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-            <div class="col-4">
-            </div>
-
         </div>
     </div>
+
+    <!--Aqui debe ir una galeria de fotos con precios para comprar, 3 secciones-->
+    <div class="container">
+        <div class="row row--cards container-cards">
+            <div class="card card-miniContainer col-lg-4 col-xs-12 col-sm-12 col-md-6" style="width: 18rem;">
+                <img src="../assets/imagenes/fotoAgos.png" class="card-img-top card-img" alt="Fotos de catalogo">
+                <div class="card-body">
+                    <p class="card-text">Bikini Bruma Gold ✨ <br> Sujetador Triangular con tirantes regulables <br>
+                        Braga
+                        estilo tanga con cierre de tiras ajustables</p>
+                </div>
+
+            </div>
+            <div class="card card-miniContainer col-lg-4 col-xs-12 col-sm-12 col-md-6" style="width: 18rem;">
+                <img src="../assets/imagenes/fotoAgus.png" class="card-img-top card-img" alt="Fotos de catalogo">
+                <div class="card-body">
+                    <p class="card-text"> Bikini Malva Pink 🌸 <br> Sujetador Triangular <br> Braga estilo tanga con
+                        cierre
+                        de tiras ajustables</p>
+                </div>
+            </div>
+            <div class="card card-miniContainer col-lg-4 col-xs-12 col-sm-12 col-md-6" style="width: 18rem;">
+                <img src="../assets/imagenes/fotoDelfi.png" class="card-img-top card-img" alt="Fotos de catalogo">
+                <div class="card-body">
+                    <p class="card-text">Bikini Bruma Red 🍉 <br> Sujetador Triangular con tirantes regulables <br>
+                        Braga
+                        estilo tanga con cierre de tiras ajustables</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row--cards container-cards">
+            <div class="card card-miniContainer col-lg-4 col-xs-12 col-sm-12 col-md-6" style="width: 18rem;">
+                <img src="../assets/imagenes/fotoBikini1.png" class="card-img-top card-img" alt="Fotos de catalogo">
+                <div class="card-body">
+                    <p class="card-text">Bikini Ágata Green 🐚 <br> Top estilo deportivo con escote redondo y detalle de
+                        abertura <br> Braga
+                        estilo tanga</p>
+                </div>
+
+            </div>
+            <div class="card card-miniContainer col-lg-4 col-xs-12 col-sm-12 col-md-6" style="width: 18rem;">
+                <img src="../assets/imagenes/bikiniVaca.png" class="card-img-top card-img" alt="Fotos de catalogo">
+                <div class="card-body">
+                    <p class="card-text">Bikini Print 🐄 <br> Sujetador Triangular <br> Braga estilo tanga con cierre
+                        de tiras ajustables</p>
+                </div>
+            </div>
+            <div class="card card-miniContainer col-lg-4 col-xs-12 col-sm-12 col-md-6" style="width: 18rem;">
+                <img src="../assets/imagenes/bikiniNegra.png" class="card-img-top card-img" alt="Fotos de catalogo">
+                <div class="card-body">
+                    <p class="card-text">Bikini Mina Black 🌑 <br> Sujetador escote V, con cierre gancho metálico en
+                        espalda
+                        <br> Braga
+                        estilo tanga con cierre de tiras ajustables</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
 
     <!--logos instagram y facebook con enlaces a perfil-->
     <div class="container redes">
@@ -173,24 +172,39 @@
     </div>
 
     <!--enlaces internos a otras paginas de la web-->
-    <div class="container"> 
+    <div class="container">
         <div class="row container__informacion">
-            <div class="col-4">
-                <a href="../pages/preguntasFrecuentes.html"><img src="../assets/imagenes/logoCamion.jpg"
-                        alt="envios" class="container__informacion__logo img-fluid"></a>
-            </div>
-            <div class="col-4">
-                <a href="../pages/preguntasFrecuentes.html"><img
-                        src="../assets/imagenes/logoTarjeta.png" alt="pagos"
+            <div class="col-sm-4 ">
+                <a href="../pages/preguntasFrecuentes.html"><img src="../assets/imagenes/logoTransporte.png" alt="envios"
                         class="container__informacion__logo img-fluid"></a>
             </div>
-            <div class="col-4">
-                <a href="../pages/contacto.html"><img src="../assets/imagenes/logoNewsletter.png"
-                        alt="logo newsletter" class="container__informacion__logo img-fluid"></a>
+            <div class="col-sm-4">
+                <a href="../pages/preguntasFrecuentes.html"><img src="../assets/imagenes/logoPago.png" alt="pagos"
+                        class="container__informacion__logo img-fluid"></a>
             </div>
         </div>
     </div>
-    
+    <div class="container-fluid container_newsletter">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-4">
+                <h5 class="newsletter_titulo">Newsletter</h5>
+                <p class="newsletter_parrafo">¡Novedades y contenido exclusivo (made for you)!</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <form class="newsletter_contenido">
+                <div class="col-lg-8 col-md-6 col-sm-6">
+                    <input type="email" class="form-newsletter form-control" id="inputEmail4"
+                        placeholder="Tu correo electronico">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <button type="submit" value="Enviar"
+                        class="btn btn-light btn-newsletter form-label">Suscribite!</button>
+                </div>
+            </form>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
@@ -202,11 +216,13 @@
     <script src="../scripts/js/bootstrap.min.js"></script>
 
 </body>
-<div class="container-fluid container__pieDePagina">
-    <footer class=" col-sm-12 col-md-12 col-lg-12">
-        <h5 class="container__pieDePagina__title">Todos los derechos reservados</h5>
-        <a href="../pages/contacto.html" class="container__pieDePagina__link">Contacto</a>
-    </footer>
+<div class="container-fluid">
+    <div class="row">
+        <footer class=" col-sm-12 col-md-12 col-lg-12 container__pieDePagina">
+            <h5 class="container__pieDePagina__title">Todos los derechos reservados</h5>
+            <a href="../pages/contacto.html" class="container__pieDePagina__link">Contacto</a>
+        </footer>
+    </div>
 </div>
 
 </html>

@@ -31,6 +31,7 @@
                             data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
+                            <img src="../assets/imagenes/menuHambur.png" alt="menu hamburguesa">
                         </button>
                         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -66,7 +67,7 @@
                 <img src="../assets/imagenes/fundadora1.JPG" alt="Fundadora Belen" class="rounded fundadoras__Img">
             </div>
             <div class=" col-lg-4 col-md-12 col-sm-12 col-xs-12 fundadoras__parrafo">
-                <p>
+                <p class="fundadoras__parrafo">
                     Somos Agostina y Belen, dos chicas Argentinas viviendo en Barcelona. Buscamos reinventar el mundo de
                     las
                     bikinis.
@@ -75,20 +76,11 @@
                     Nuestro emprendimiento recien empieza y esperamos expandirnos, mejorar y crecer para brindar un
                     mejor servicio
                     siempre.
-                    Belen organizadora de eventos, graduada de UADE en Capital Federal (Buenos Aires), naturalmente
-                    emprendedora y
-                    con vista en la calidad del cliente, organizacion y transparencia. Se encarga de que la parte
-                    organizacional
-                    resalte sobre otros emprendimientos, para destacar en calidad y servicio.
-                    Agostina diseñadora de modas, graduada de UBF en Capital Federal (Buenos Aires), se inserto en este
-                    mundo con
-                    nuevos diseños que buscan salir de lo ordinario y divertirnos en verano.
-                    Juntas como cada una de sus cualidades creamos Ria Beach Wear para insertar en el mercado algo que
-                    nosotras
+                    Juntas creamos Ria Beach Wear para insertar en el mercado algo que nosotras
                     mismas buscabamos encontrar, algo diferente, divertido y con onda pero sin olvidar el toque clasico
                     que
                     algunas
-                    necesitamos cuando de bikinis y/o trajes de baños hablamos.
+                    necesitamos cuando de bikinis hablamos.
                 </p>
             </div>
 
@@ -109,25 +101,27 @@
                     alt="logo Instagram" class="img-fluid redes__logo"></a>
         </div>
     </div>
-
-    <div class="container">
-        <!--enlaces internos a otras paginas de la web-->
-        <div class="row container__informacion">
-            <div class="col-4">
-                <a href="../pages/preguntasFrecuentes.html"><img src="../assets/imagenes/logoCamion.jpg"
-                        alt="envios" class="container__informacion__logo img-fluid"></a>
-            </div>
-            <div class="col-4">
-                <a href="../pages/preguntasFrecuentes.html"><img src="../assets/imagenes/logoTarjeta.png"
-                        alt="pagos" class="container__informacion__logo img-fluid"></a>
-            </div>
-            <div class="col-4">
-                <a href="../pages/contacto.html"><img src="../assets/imagenes/logoNewsletter.png"
-                        alt="logo newsletter" class="container__informacion__logo img-fluid"></a>
-            </div>
+    
+    <div class="container-fluid container_newsletter">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-4">
+            <h5 class="newsletter_titulo">Newsletter</h5>
+            <p class="newsletter_parrafo">¡Novedades y contenido exclusivo (made for you)!</p>
+          </div>
         </div>
-    </div>
-    </div>
+    
+        <div class="row">
+          <form class="newsletter_contenido">
+            <div class="col-lg-8 col-md-6 col-sm-6">
+              <input type="email" class="form-newsletter form-control" id="inputEmail4" placeholder="Tu correo electronico">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <button type="submit" value="Enviar" class="btn btn-light btn-newsletter form-label">Suscribite!</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
