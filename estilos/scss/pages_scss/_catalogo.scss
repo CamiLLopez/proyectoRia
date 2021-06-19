@@ -18,7 +18,6 @@
             font-weight: bolder;
             text-align: start;
             font-size: 1rem;
-            text-decoration: solid;
             color: #B88B84;
         }
 
@@ -29,13 +28,14 @@
 .promocion__titulo{
     font-family: $type-font;
     color: $color-salmon;
+    text-transform: uppercase;
     font-weight: bold;
     font-size: 2rem;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.8rem;
     text-align: center;
     animation-duration: 3s;
     animation-name: aparecer;
-    margin: 1rem;
+    margin-top: 5rem;
     padding: 1rem;
 }
 

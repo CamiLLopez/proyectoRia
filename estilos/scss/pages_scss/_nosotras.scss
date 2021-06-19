@@ -19,8 +19,8 @@
         margin-left: 3rem;
         margin-right: 3rem;
         height: 20rem;
-        width: 18rem;
-        border: dotted 0.5rem $color-crema;
+        width: 30rem;
+        border: solid 0.1rem $color-crema;
         padding: 0.8rem;
         animation-duration: 4s;
         animation-name: aparecer;
@@ -29,7 +29,7 @@
     .fundadoras__parrafo{
         font-family: $type-font;
         font-size: 1rem;
-        text-align: left;
+        text-align: justify;
     }
     
 }
@@ -38,30 +38,27 @@
 
     .fundadoras__titulo{
         font-size: 1.5rem;
+        margin: 1rem;
         letter-spacing: 0.3rem;
         
     }
     .fundadoras__bloque{
-        flex-direction: column-reverse;
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
-        align-items: center;
     
         .fundadoras__Img{
-            height: 18rem;
+            margin-top: 0.5rem;
+            margin-left: 4.5rem;
+            margin-right: 3rem;
+            height: 10rem;
             width: 15rem;
-            border: dotted 0.5rem $color-crema;
-            padding: 0.8rem;
-            animation-duration: 4s;
-            animation-name: aparecer;
         }
 
         .fundadoras__parrafo{
             font-family: $type-font;
             font-size: 0.8rem;
-            text-align: center;
-            padding: 0.7rem;
-            margin: 0.7rem;
+            text-align: justify;
+            margin-top: 0.7rem;
         }
     
     }

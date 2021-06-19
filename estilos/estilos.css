@@ -145,7 +145,9 @@
         font-size: 0.5rem; }
         .container_newsletter .newsletter_contenido .form-newsletter .btn-newsletter {
           font-size: 0.5rem;
-          text-decoration: none; }
+          text-decoration: none;
+          padding: 0.10rem;
+          font-size: 0.9rem; }
   .container__pieDePagina {
     text-align: center;
     display: flex;
@@ -245,19 +247,19 @@
     font-weight: bolder;
     text-align: start;
     font-size: 1rem;
-    text-decoration: solid;
     color: #B88B84; }
 
 .promocion__titulo {
   font-family: "Montserrat", sans-serif;
   color: #F5A77A;
+  text-transform: uppercase;
   font-weight: bold;
   font-size: 2rem;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.8rem;
   text-align: center;
   animation-duration: 3s;
   animation-name: aparecer;
-  margin: 1rem;
+  margin-top: 5rem;
   padding: 1rem; }
 
 @media (max-width: 640px) {
@@ -315,8 +317,8 @@
     margin-top: 0.8rem; }
 
 .form__imgMap {
-  width: 25rem;
-  height: 18rem;
+  width: 30rem;
+  height: 20rem;
   margin-top: 10rem;
   margin-bottom: 5rem;
   margin-left: auto;
@@ -361,7 +363,7 @@
       margin-top: 0.8rem; }
   .form__imgMap {
     width: 15rem;
-    height: 9rem;
+    height: 10rem;
     margin-top: 5rem;
     margin-bottom: 2rem; } }
 
@@ -385,38 +387,35 @@
     margin-left: 3rem;
     margin-right: 3rem;
     height: 20rem;
-    width: 18rem;
-    border: dotted 0.5rem #F2E9E4;
+    width: 30rem;
+    border: solid 0.1rem #F2E9E4;
     padding: 0.8rem;
     animation-duration: 4s;
     animation-name: aparecer; }
   .fundadoras__bloque .fundadoras__parrafo {
     font-family: "Montserrat", sans-serif;
     font-size: 1rem;
-    text-align: left; }
+    text-align: justify; }
 
 @media (max-width: 640px) {
   .fundadoras__titulo {
     font-size: 1.5rem;
+    margin: 1rem;
     letter-spacing: 0.3rem; }
   .fundadoras__bloque {
-    flex-direction: column-reverse;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; }
+    flex-direction: column;
+    justify-content: center; }
     .fundadoras__bloque .fundadoras__Img {
-      height: 18rem;
-      width: 15rem;
-      border: dotted 0.5rem #F2E9E4;
-      padding: 0.8rem;
-      animation-duration: 4s;
-      animation-name: aparecer; }
+      margin-top: 0.5rem;
+      margin-left: 4.5rem;
+      margin-right: 3rem;
+      height: 10rem;
+      width: 15rem; }
     .fundadoras__bloque .fundadoras__parrafo {
       font-family: "Montserrat", sans-serif;
       font-size: 0.8rem;
-      text-align: center;
-      padding: 0.7rem;
-      margin: 0.7rem; } }
+      text-align: justify;
+      margin-top: 0.7rem; } }
 
 .contenedor--acordion .modificador-boton {
   font-family: "Montserrat", sans-serif;
@@ -447,16 +446,21 @@
     margin-left: auto; }
 
 .presentacion .presentacion__titulo {
-  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Amatic SC", cursive;
   color: #F5A77A;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 5rem;
   letter-spacing: 0.5rem;
   text-align: center;
   animation-duration: 3s;
   animation-name: aparecer;
-  margin: 1rem;
+  margin-top: 8rem;
   padding: 1rem; }
+
+.presentacion .presentacion__titulo:hover {
+  color: #B88B84; }
 
 @keyframes aparecer {
   0% {
@@ -469,13 +473,21 @@
 .contenedor_ria {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap; }
+  flex-wrap: nowrap;
+  margin-bottom: 5rem; }
+
+.contenedor_productos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 15rem;
+  margin-bottom: 10rem; }
 
 @media (max-width: 640px) {
   .presentacion .presentacion__titulo {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 2rem;
     letter-spacing: 0.3rem;
     margin: 0.5rem;
     padding: 0.2rem; } }

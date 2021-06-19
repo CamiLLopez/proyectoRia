@@ -1,5 +1,5 @@
-$type-font:'Montserrat',
-sans-serif;
+$type-font:'Montserrat',sans-serif;
+$type-font-titulo-principal: 'Amatic SC', cursive;
 $color-crema: #F2E9E4;
 $color-morado: #B88B84;
 $color-salmon: #F5A77A;
@@ -37,20 +37,24 @@ $color-menu: black;
 }
 
 .presentacion {
-
     .presentacion__titulo {
-        font-family: $type-font;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: $type-font-titulo-principal;
         color: $color-salmon;
         font-weight: bold;
-        font-size: 2rem;
+        font-size: 5rem;
         letter-spacing: 0.5rem;
         text-align: center;
         animation-duration: 3s;
         animation-name: aparecer;
-        margin: 1rem;
+        margin-top: 8rem;
         padding: 1rem;
-
     }
+    .presentacion__titulo:hover{
+        color: $color-morado;
+    }
+
 
     @keyframes aparecer {
         0% {
@@ -72,15 +76,23 @@ $color-menu: black;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    margin-bottom: 5rem;
 }
 
+.contenedor_productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 15rem;
+    margin-bottom: 10rem;
+}
 @media (max-width: 640px) {
 
     .presentacion{
         .presentacion__titulo {
             font-family: $type-font;
             font-weight: bold;
-            font-size: 1rem;
+            font-size: 2rem;
             letter-spacing: 0.3rem;
             margin: 0.5rem;
             padding: 0.2rem;
