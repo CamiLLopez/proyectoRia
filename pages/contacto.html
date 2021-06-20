@@ -59,31 +59,31 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                 <form class="row g-3 row-form ">
                     <div class="container">
-                        <div class="col-sm-4 col-md-4 col-lg-12 ">
+                        <div class="col-sm-4 col-md-12 col-lg-12 ">
                             <label for="nombre" class="form-label form__label-dato">Nombre</label>
                             <input type="text" class="form-control form__control-label" name="nombre"
                                 placeholder="Tu nombre va aqui">
                         </div>
-                        <div class="colsm-4 col-md-4 col-lg-12">
+                        <div class="colsm-4 col-md-12 col-lg-12">
                             <label for="apellido" class="form-label form__label-dato">Apellido</label>
-                            <input type="text" name="apellido" class="form-control form__control-label" id="inputAddress2"
-                                placeholder="Tu apellido va aqui">
+                            <input type="text" name="apellido" class="form-control form__control-label"
+                                id="inputAddress2" placeholder="Tu apellido va aqui">
                         </div>
 
-                        <div class="col-md-6 col-lg-12">
+                        <div class="col-md-12 col-lg-12">
                             <label for="inputEmail4" class="form-label form__label-dato">Email</label>
                             <input type="email" class="form-control form__control-label" id="inputEmail4"
                                 placeholder="xxxxxxx@gmail.com">
                         </div>
-                        <div class="col-md-4 col-lg-12">
+                        <div class="col-md-12 col-lg-12">
                             <label for="inputCity" class="form-label form__label-dato">Ciudad</label>
                             <input type="text" class="form-control form__control-label" id="inputCity"
                                 placeholder="Ingresa tu Ciudad">
                         </div>
-                        <div class="col-md-4 col-lg-12">
+                        <div class="col-md-12 col-lg-12">
                             <label for="inputState" class="form-label form__label-dato">Pais</label>
                             <select id="inputState" class="form-select form__control-label">
                                 <option selected class="form-label form__label-dato">De donde sos?</option>
@@ -93,7 +93,7 @@
                             </select>
                         </div>
                         <br>
-                        <div class="input-group col-md-6 col-lg-12">
+                        <div class="input-group col-md-12 col-lg-12">
                             <span class="input-group-text form-label form__label-dato">Comentario</span>
                             <textarea class="form-control form-label form__control-label" aria-label="With textarea"
                                 placeholder="Comentanos tus dudas..."></textarea>
@@ -118,8 +118,8 @@
                     </div>
                 </form>
             </div>
-            <div class="col-6 col-md-6 col-sm-12 col-xs-12">
-                <img src="../assets/imagenes/fotoContacto.jpg" class="img-fluid float-end form__imgMap">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <img src="../assets/imagenes/fotoContacto.jpg" class="img-fluid float-end form__img">
             </div>
         </div>
     </div>
@@ -153,7 +153,7 @@
             </form>
         </div>
     </div>
-    
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
@@ -166,9 +166,18 @@
 
 </body>
 <div class="container-fluid container__pieDePagina">
-    <footer class=" col-sm-12 col-md-12 col-lg-12">
-        <h5 class="container__pieDePagina__title">Todos los derechos reservados</h5>
-        <a href="../pages/contacto.html" class="container__pieDePagina__link">Contacto</a>
+    <footer class="col-sm-12 col-md-12 col-lg-12">
+        <div class="row container__links">
+            <a href="../index.html" class="container__pieDePagina__link">Home</a>
+            <a href="catalogo.html" class="container__pieDePagina__link">Catalogo</a>
+            <a href="sobreNosotras.html" class="container__pieDePagina__link">Quienes somos?</a>
+            <a href="preguntasFrecuentes.html" class="container__pieDePagina__link">Pregunatas frecuentes</a>
+            <a href="contacto.html" class="container__pieDePagina__link">Contacto</a>
+
+        </div>
+        <div>
+            <h6 class="container__pieDePagina__title">Todos los derechos reservados</h6>
+        </div>
     </footer>
 </div>
 

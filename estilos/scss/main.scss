@@ -43,12 +43,12 @@ $color-menu: black;
         font-family: $type-font-titulo-principal;
         color: $color-salmon;
         font-weight: bold;
-        font-size: 5rem;
+        font-size: 4rem;
         letter-spacing: 0.5rem;
         text-align: center;
         animation-duration: 3s;
         animation-name: aparecer;
-        margin-top: 8rem;
+        margin-top: 4rem;
         padding: 1rem;
     }
     .presentacion__titulo:hover{
@@ -83,21 +83,39 @@ $color-menu: black;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 15rem;
+    margin-top: 2rem;
     margin-bottom: 10rem;
+    .producto_item:hover{
+        width: 40rem;
+        height: 40rem;
+    }
+
 }
+
+
+
 @media (max-width: 640px) {
 
     .presentacion{
         .presentacion__titulo {
             font-family: $type-font;
             font-weight: bold;
-            font-size: 2rem;
-            letter-spacing: 0.3rem;
+            font-size: 1rem;
+            letter-spacing: 0.1rem;
             margin: 0.5rem;
             padding: 0.2rem;
         }
     }
-    
+    .contenedor_productos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        margin-bottom: 5rem;
+        .producto_item{
+            width: 15rem;
+            
+        }
+    }
 
 }

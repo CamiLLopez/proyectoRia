@@ -31,52 +31,53 @@
         flex-direction: row;
         flex-wrap: nowrap;
         justify-items: center;
-       
+
         .form-newsletter {
             color: $color-morado;
             text-align: justify;
             font-weight: 500;
             font-size: 1rem;
-    
+
             .btn-newsletter {
                 font-size: 1rem;
                 text-decoration: none;
-                
+
 
 
             }
         }
     }
-}    
+}
 
 .container__pieDePagina {
     background-color: $color-footer;
-    text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
     .container__pieDePagina__title {
         font-style: italic;
+        text-align: center;
         font-family: $type-font;
-        font-size: 1rem;
+        font-size: 0.7rem;
         color: $color-letras_footer;
     }
 
+
     .container__pieDePagina__link {
+        text-align: left;
         text-decoration: none;
         font-style: italic;
         font-family: $type-font;
-        font-size: 1em;
-        color:$color-letras_footer;
-        font-weight: bold;
+        font-size: 0.8rem;
+        color: $color-letras_footer;
     }
 
     .container__pieDePagina__link:hover {
         color: $color-salmon;
-
     }
 }
+
 
 @media (max-width: 640px) {
     .container_newsletter {
@@ -89,7 +90,7 @@
         font-family: $type-font;
         margin-top: 2rem;
         padding: 1rem;
-    
+
         .newsletter_titulo {
             text-align: center;
             color: white;
@@ -98,7 +99,7 @@
             word-spacing: 0.3rem;
             text-transform: uppercase
         }
-    
+
         .newsletter_parrafo {
             text-align: center;
             color: white;
@@ -111,44 +112,43 @@
             flex-direction: row;
             flex-wrap: nowrap;
             justify-items: center;
-           
+
             .form-newsletter {
                 color: $color-morado;
                 text-align: justify;
                 font-weight: 500;
                 font-size: 0.5rem;
-        
+
                 .btn-newsletter {
                     font-size: 0.5rem;
                     text-decoration: none;
                     padding: 0.10rem;
-                    font-size: 0.9rem;
+                    font-size: 0.5rem;
                 }
             }
         }
-    }   
+    }
+
     .container__pieDePagina {
-        text-align: center;
         display: flex;
         flex-direction: row;
-        justify-content: center;
-    
+
+            .container__pieDePagina__link {
+                text-decoration: none;
+                font-style: italic;
+                font-family: $type-font;
+                font-size: 0.6rem;
+                color: $color-letras_footer;
+                font-weight: bold;
+            }
+        }
+
         .container__pieDePagina__title {
             font-style: italic;
             font-family: $type-font;
-            font-size: 0.8rem;
+            font-size: 0.7rem;
             color: $color-letras_footer;
         }
-    
-        .container__pieDePagina__link {
-            text-decoration: none;
-            font-style: italic;
-            font-family: $type-font;
-            font-size: 0.8rem;
-            color:$color-letras_footer;
-            font-weight: bold;
-        }
-    
-    } 
-         
-}
+
+    }
+

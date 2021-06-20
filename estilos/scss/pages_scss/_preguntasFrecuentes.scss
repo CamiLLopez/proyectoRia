@@ -5,19 +5,22 @@
 }
 
 
-.contenedor--acordion{
-   
-   .modificador-boton{
-      @include botones($type-font, $color-morado, 1rem);
-      
-   }
-   .modificador-boton:not(.collapsed){
-      @include botones($type-font, $color-morado, 1rem);
-      
-   }
-   .acordion-cuerpo{
-      @include botones($type-font, $color-morado, 1rem);
-   }
+.contenedor--acordion {
+   margin-top: 2rem;
 
-}
+      .modificador-boton {
+         @include botones($type-font, $color-morado, 1rem);
+
+      }
+
+      .modificador-boton:not(.collapsed) {
+         @include botones($type-font, $color-morado, 1rem);
+
+      }
+
+      .acordion-cuerpo {
+         @include botones($type-font, $color-morado, 1rem);
+      }
+
+   }
 

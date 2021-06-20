@@ -13,14 +13,12 @@
     }
 
     .header__menu {
-        font-size: 1rem;
-        font-family: $type-font;
 
         .header__menu--item {
             text-decoration: none;
             color: $color-menu;
             font-weight: 500;
-            font-size: 1.2rem;
+            font-size: 1rem;
             font-family: $type-font;
         }
 
