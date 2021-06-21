@@ -418,6 +418,30 @@
     color: #B88B84;
     font-size: 1rem; }
 
+.fondo_body {
+  background-color: #E3AD98;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin-top: 8rem; }
+  .fondo_body .titulo_404 {
+    font-family: "Amatic SC", cursive;
+    font-size: 3rem;
+    letter-spacing: 0.8rem;
+    font-weight: bold;
+    color: #8BA6A6;
+    text-align: center; }
+  .fondo_body .parrafo_404 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 2rem;
+    word-spacing: 0.5rem; }
+  .fondo_body .logo_404:hover {
+    width: 8rem; }
+
 * {
   padding: 0;
   margin: 0; }
