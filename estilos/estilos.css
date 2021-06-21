@@ -78,13 +78,12 @@
     flex-wrap: nowrap;
     justify-items: center; }
     .container_newsletter .newsletter_contenido .form-newsletter {
-      color: #B88B84;
       text-align: justify;
       font-weight: 500;
       font-size: 1rem; }
-      .container_newsletter .newsletter_contenido .form-newsletter .btn-newsletter {
-        font-size: 1rem;
-        text-decoration: none; }
+    .container_newsletter .newsletter_contenido .btn-newsletter {
+      font-size: 1rem;
+      text-decoration: none; }
 
 .container__pieDePagina {
   background-color: #F2F2F2;
@@ -109,57 +108,29 @@
 
 @media (max-width: 640px) {
   .container_newsletter {
-    display: flex;
-    flex-direction: column;
     flex-wrap: nowrap;
-    align-content: center;
-    align-items: center;
-    background-color: #E3AD98;
-    font-family: "Montserrat", sans-serif;
     margin-top: 2rem;
     padding: 1rem; }
     .container_newsletter .newsletter_titulo {
-      text-align: center;
-      color: white;
       font-weight: 600;
       font-size: 1rem;
-      word-spacing: 0.3rem;
-      text-transform: uppercase; }
+      word-spacing: 0.3rem; }
     .container_newsletter .newsletter_parrafo {
-      text-align: center;
-      color: white;
-      font-size: 0.8rem;
-      font-family: "Montserrat", sans-serif; }
+      font-size: 0.8rem; }
     .container_newsletter .newsletter_contenido {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      justify-items: center; }
+      flex-wrap: nowrap; }
+      .container_newsletter .newsletter_contenido .btn-newsletter {
+        padding: 0.2rem;
+        font-size: 0.9rem; }
       .container_newsletter .newsletter_contenido .form-newsletter {
-        color: #B88B84;
-        text-align: justify;
         font-weight: 500;
-        font-size: 0.5rem; }
-        .container_newsletter .newsletter_contenido .form-newsletter .btn-newsletter {
-          font-size: 0.5rem;
-          text-decoration: none;
-          padding: 0.10rem;
-          font-size: 0.5rem; }
-  .container__pieDePagina {
-    display: flex;
-    flex-direction: row; }
-    .container__pieDePagina .container__pieDePagina__link {
-      text-decoration: none;
-      font-style: italic;
-      font-family: "Montserrat", sans-serif;
-      font-size: 0.6rem;
-      color: #8BA6A6;
-      font-weight: bold; }
+        font-size: 0.7rem; }
+  .container__pieDePagina .container__pieDePagina__link {
+    margin-top: 0.3rem;
+    font-size: 0.6rem; }
   .container__pieDePagina__title {
-    font-style: italic;
-    font-family: "Montserrat", sans-serif;
     font-size: 0.7rem;
-    color: #8BA6A6; } }
+    margin-top: 1rem; } }
 
 .redes {
   display: flex;
@@ -216,9 +187,14 @@
   margin-top: 5rem;
   margin-bottom: 5rem;
   justify-content: space-evenly; }
-  .container-cards .card-miniContainer .card-img {
+  .container-cards .card-miniContainer {
+    border: 1px; }
+    .container-cards .card-miniContainer .card-img {
+      padding: 1rem;
+      height: 20rem; }
+  .container-cards .card-miniContainer:hover {
     padding: 1rem;
-    height: 20rem; }
+    height: 21rem; }
   .container-cards .card-body .card-text {
     padding: 0.5rem;
     font-family: "Montserrat", sans-serif;
@@ -253,26 +229,18 @@
     margin-top: 3rem;
     margin-bottom: 3rem;
     justify-content: center; }
-    .container-cards .card-miniContainer .card-img {
-      padding: 1rem;
-      height: 20rem; }
+    .container-cards .card-miniContainer {
+      border: 1px; }
+      .container-cards .card-miniContainer .card-img {
+        padding: 1rem;
+        height: 20rem; }
     .container-cards .card-body .card-text {
-      padding: 0.5rem;
-      font-family: "Montserrat", sans-serif;
-      font-weight: bolder;
+      padding: 0.3rem;
       text-align: start;
-      font-size: 0.8rem;
-      text-decoration: solid;
-      color: #B88B84; }
+      font-size: 0.8rem; }
   .promocion__titulo {
-    font-family: "Montserrat", sans-serif;
-    color: #F5A77A;
-    font-weight: bold;
-    font-size: 1.5rem;
-    letter-spacing: 0.3rem;
-    text-align: center;
-    animation-duration: 3s;
-    animation-name: aparecer;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
     margin: 1rem;
     padding: 1rem; } }
 
@@ -312,46 +280,38 @@
 
 @media (max-width: 640px) {
   .row-form {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    margin-left: auto;
-    margin-right: auto; }
+    margin-top: 3rem;
+    margin-bottom: 3rem; }
     .row-form .form__control-label {
-      font-size: 0.5rem;
-      font-style: italic;
-      font-weight: bold;
-      font-family: "Montserrat", sans-serif;
       padding: 0.2rem;
-      margin-bottom: 0.1rem;
-      margin-top: 0.2rem; }
+      font-size: 0.8rem; }
     .row-form .form__label-dato {
-      font-weight: bold;
-      font-family: "Montserrat", sans-serif;
-      margin-bottom: 0.3rem;
-      margin-top: 0.5rem; }
+      font-size: 0.9rem; }
     .row-form .form__btn-light {
       font-size: 0.8rem;
-      font-family: "Montserrat", sans-serif;
       padding: 0.2rem;
       margin-bottom: 0.1rem;
       margin-top: 0.2rem; }
-    .row-form .form__btn-light:hover {
-      background-color: #B88B84; }
     .row-form .form__check-input {
       font-size: 0.8rem;
-      font-family: "Montserrat", sans-serif;
       padding: 0.2rem;
       margin-bottom: 0.1rem;
       margin-top: 0.2rem; }
     .row-form .form__check-input:checked {
-      background-color: #B88B84;
       font-size: 0.8rem;
       margin-top: 0.8rem; }
-  .form__imgMap {
-    width: 15rem;
+  .form__img {
+    width: 30rem;
     height: 10rem;
-    margin-top: 5rem;
-    margin-bottom: 2rem; } }
+    margin-top: 0.2rem;
+    margin-bottom: 1rem; } }
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  .form__img {
+    width: 30rem;
+    height: 20rem;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem; } }
 
 .fundadoras__titulo {
   font-family: "Montserrat", sans-serif;
@@ -393,15 +353,29 @@
     justify-content: center; }
     .fundadoras__bloque .fundadoras__Img {
       margin-top: 0.5rem;
-      margin-left: 4.5rem;
-      margin-right: 3rem;
       height: 10rem;
       width: 15rem; }
     .fundadoras__bloque .fundadoras__parrafo {
-      font-family: "Montserrat", sans-serif;
-      font-size: 0.8rem;
-      text-align: justify;
+      font-size: 0.9rem;
       margin-top: 0.7rem; } }
+
+@media (min-width: 640px) and (max-width: 1024px) {
+  .fundadoras__titulo {
+    font-size: 1.5rem;
+    margin: 1rem;
+    letter-spacing: 0.3rem; }
+  .fundadoras__bloque {
+    flex-direction: column-reverse;
+    align-content: center;
+    align-items: center; }
+    .fundadoras__bloque .fundadoras__Img {
+      margin-top: 0.5rem;
+      margin-left: auto;
+      height: 15rem;
+      width: 20rem; }
+    .fundadoras__bloque .fundadoras__parrafo {
+      font-size: 1rem;
+      margin-top: 1rem; } }
 
 .contenedor--acordion {
   margin-top: 2rem; }

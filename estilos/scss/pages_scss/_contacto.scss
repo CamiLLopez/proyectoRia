@@ -41,63 +41,56 @@
     margin-left: auto;
     margin-right: auto;
 }
+
 @media (max-width:640px) {
     .row-form {
-        margin-top: 4rem;
-        margin-bottom: 4rem;
-        margin-left: auto;
-        margin-right: auto;
-        
-    
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+
+
         .form__control-label {
-            font-size: 0.5rem;
-            font-style: italic;
-            font-weight: bold;
-            font-family: $type-font;
             padding: 0.2rem;
-            margin-bottom: 0.1rem;
-            margin-top: 0.2rem;
+            font-size: 0.8rem;
         }
-    
+
         .form__label-dato {
-            font-weight: bold;
-            font-family: $type-font;
-            margin-bottom: 0.3rem;
-            margin-top: 0.5rem;
+            font-size: 0.9rem
         }
-        .form__btn-light{
+
+        .form__btn-light {
             font-size: 0.8rem;
-            font-family: $type-font;
             padding: 0.2rem;
             margin-bottom: 0.1rem;
             margin-top: 0.2rem;
         }
-    
-        .form__btn-light:hover {
-            background-color: #B88B84;
-        }
-    
-        .form__check-input{
+
+        .form__check-input {
             font-size: 0.8rem;
-            font-family: $type-font;
             padding: 0.2rem;
             margin-bottom: 0.1rem;
             margin-top: 0.2rem;
         }
+
         .form__check-input:checked {
-            background-color: #B88B84;
             font-size: 0.8rem;
             margin-top: 0.8rem;
         }
     }
-    
-    .form__imgMap {
-        width: 15rem;
-        height: 10rem;
-        margin-top: 5rem;
-        margin-bottom: 2rem;
 
+    .form__img {
+        width: 30rem;
+        height: 10rem;
+        margin-top: 0.2rem;
+        margin-bottom: 1rem;
+    }
+}
+@media (min-width:640px) and (max-width: 1023px){
+
+    .form__img {
+        width: 30rem;
+        height: 20rem;
+        margin-top: 0.2rem;
+        margin-bottom: 1rem;
     }
 
-    
 }

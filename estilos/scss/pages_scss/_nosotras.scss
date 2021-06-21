@@ -48,17 +48,40 @@
     
         .fundadoras__Img{
             margin-top: 0.5rem;
-            margin-left: 4.5rem;
-            margin-right: 3rem;
             height: 10rem;
             width: 15rem;
         }
 
         .fundadoras__parrafo{
-            font-family: $type-font;
-            font-size: 0.8rem;
-            text-align: justify;
+            font-size: 0.9rem;
             margin-top: 0.7rem;
+        }
+    
+    }
+}
+@media (min-width:640px) and (max-width: 1024px){
+
+    .fundadoras__titulo{
+        font-size: 1.5rem;
+        margin: 1rem;
+        letter-spacing: 0.3rem;
+        
+    }
+    .fundadoras__bloque{
+        flex-direction: column-reverse;
+        align-content: center;
+        align-items: center;
+    
+        .fundadoras__Img{
+            margin-top: 0.5rem;
+            margin-left: auto;
+            height: 15rem;
+            width: 20rem;
+        }
+
+        .fundadoras__parrafo{
+            font-size: 1rem;
+            margin-top: 1rem;
         }
     
     }
