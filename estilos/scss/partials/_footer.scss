@@ -1,0 +1,134 @@
+.container_newsletter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    background-color: $color-encabezado;
+    font-family: $type-font;
+    margin-top: 4rem;
+    padding: 2rem;
+
+    .newsletter_titulo {
+        text-align: center;
+        color: white;
+        font-weight: 600;
+        font-size: 2rem;
+        word-spacing: 0.5rem;
+        text-transform: uppercase
+    }
+
+    .newsletter_parrafo {
+        text-align: center;
+        color: white;
+        font-size: 1rem;
+        font-family: $type-font;
+    }
+
+
+    .newsletter_contenido {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-items: center;
+
+        .form-newsletter {
+            text-align: justify;
+            font-weight: 500;
+            font-size: 1rem;
+        }
+        .btn-newsletter {
+            font-size: 1rem;
+            text-decoration: none;
+        }
+    }
+}
+
+
+.container__pieDePagina {
+    background-color: $color-footer;
+    font-family: $type-font;
+    color: $color-letras_footer;
+    
+    .encabezados-footer{
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .container__pieDePagina__title {
+        font-family: $type-font;
+        font-size: 0.9rem;
+        color: $color-letras_footer;
+    }
+    .container__pieDePagina__link {
+        text-align: left;
+        text-decoration: none;
+        font-style: italic;
+        font-family: $type-font;
+        font-size: 0.8rem;
+        color: $color-letras_footer;
+    }
+
+    .container__pieDePagina__link:hover {
+        color: $color-salmon;
+    }
+
+    .link-instragram{
+        text-decoration: none;
+        color: $color-letras_footer;
+        font-family: $type-font;
+
+    }
+    .link-instragram:hover {
+        color: $color-salmon;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .container_newsletter {
+        flex-wrap: nowrap;
+        margin-top: 2rem;
+        padding: 1rem;
+
+        .newsletter_titulo {
+            font-weight: 600;
+            font-size: 1rem;
+            word-spacing: 0.3rem;
+        }
+
+        .newsletter_parrafo {
+            font-size: 0.8rem;
+        }
+
+        .newsletter_contenido {
+            flex-wrap: nowrap;
+
+            .btn-newsletter {
+                padding: 0.2rem;
+                font-size: 0.9rem;
+            }
+
+            .form-newsletter {
+                font-weight: 500;
+                font-size: 0.7rem;
+            }
+
+        }
+    }
+
+    .container__pieDePagina {
+
+        .container__pieDePagina__link {
+            margin-top: 0.3rem;
+            font-size: 0.6rem;
+
+        }
+    }
+
+    .container__pieDePagina__title {
+        font-size: 0.7rem;
+        margin-top: 1rem;
+    }
+
+}

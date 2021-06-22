@@ -1,0 +1,87 @@
+.header {
+    background-color: white;
+
+    .header__logo {
+        margin-bottom: 1.2rem;
+        padding: 0.8rem;
+        
+    }
+
+    .header__logo:hover {
+        transform: rotateX(30deg);
+
+    }
+
+    .header__menu {
+
+        .header__menu--item {
+            text-decoration: none;
+            color: $color-menu;
+            font-weight: 500;
+            font-size: 1rem;
+            font-family: $type-font;
+        }
+
+        .header__menu--item:hover {
+            color: $color-salmon;
+            font-weight: bold;
+
+        }
+        .boton_hamburguesa{
+            border: none;
+        }
+    }
+}
+
+.container__encabezado {
+    background-color: $color-encabezado;
+    text-align: center;
+    font-family: $type-font;
+    font-size: 1rem;
+    color: $color-crema;
+}
+
+@media (max-width: 640px) {
+
+    .container__encabezado {
+        background-color: $color-encabezado;
+        text-align: center;
+        font-family: $type-font;
+        font-size: 0.7rem;
+        color: $color-crema;
+    }
+    .header {
+        background-color: white;
+    
+        .header__logo {
+            margin-bottom: 1.2rem;
+            padding: 0.8rem;
+            
+        }
+    
+        .header__logo:hover {
+            transform: rotateX(30deg);
+    
+        }
+    
+        .header__menu {
+            font-size: 0.8rem;
+            font-family: $type-font;
+    
+            .header__menu--item {
+                text-decoration: none;
+                color: $color-menu;
+                font-weight: 500;
+                font-size: 0.8rem;
+                font-family: $type-font;
+            }
+    
+            .header__menu--item:hover {
+                color: $color-salmon;
+                font-weight: bold;
+    
+            }
+        }
+    }
+}
+

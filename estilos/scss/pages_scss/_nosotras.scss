@@ -1,0 +1,88 @@
+.fundadoras__titulo{
+        font-family: $type-font;
+        color: $color-salmon;
+        font-weight: bold;
+        font-size: 2rem;
+        letter-spacing: 0.5rem;
+        text-align: center;
+        animation-duration: 3s;
+        animation-name: aparecer;
+        margin: 3rem;
+        padding: 1rem;
+}
+.fundadoras__bloque{
+    justify-content: space-between;
+    align-items: center;
+    
+    .fundadoras__Img{
+        margin-top: 3rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        height: 20rem;
+        width: 30rem;
+        border: solid 0.1rem $color-crema;
+        padding: 0.8rem;
+        animation-duration: 4s;
+        animation-name: aparecer;
+    }
+
+    .fundadoras__parrafo{
+        font-family: $type-font;
+        font-size: 1rem;
+        text-align: justify;
+    }
+    
+}
+
+@media (max-width:640px) {
+
+    .fundadoras__titulo{
+        font-size: 1.5rem;
+        margin: 1rem;
+        letter-spacing: 0.3rem;
+        
+    }
+    .fundadoras__bloque{
+        flex-direction: column;
+        justify-content: center;
+    
+        .fundadoras__Img{
+            margin-top: 0.5rem;
+            height: 10rem;
+            width: 15rem;
+        }
+
+        .fundadoras__parrafo{
+            font-size: 0.9rem;
+            margin-top: 0.7rem;
+        }
+    
+    }
+}
+@media (min-width:640px) and (max-width: 1024px){
+
+    .fundadoras__titulo{
+        font-size: 1.5rem;
+        margin: 1rem;
+        letter-spacing: 0.3rem;
+        
+    }
+    .fundadoras__bloque{
+        flex-direction: column-reverse;
+        align-content: center;
+        align-items: center;
+    
+        .fundadoras__Img{
+            margin-top: 0.5rem;
+            margin-left: auto;
+            height: 15rem;
+            width: 20rem;
+        }
+
+        .fundadoras__parrafo{
+            font-size: 1rem;
+            margin-top: 1rem;
+        }
+    
+    }
+}

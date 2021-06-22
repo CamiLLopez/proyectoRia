@@ -1,0 +1,27 @@
+
+    .container__informacion__logo {
+        text-decoration: none;
+        width: 2.5rem;
+    }
+
+    .container__informacion__logo:hover {
+        width: 2.5rem;
+        height: 2.7rem;
+
+    }
+
+@media (max-width:640px) {
+
+        .container__informacion__logo {
+            width: 1.5rem;
+        }
+
+        .container__informacion__logo:hover {
+            width: 1.5rem;
+            height: 2rem;
+    
+        }
+    }
+
+
+
