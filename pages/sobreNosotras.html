@@ -16,24 +16,21 @@
 </head>
 
 <body>
-    <div>
+    <div class="sticky-top">
         <header class="d-flex justify-content-between header">
             <!--aqui va el Logo-->
             <div class="header__logo">
                 <a href="../index.html"><img src="../assets/imagenes/logo.jpg" class="img-fluid rounded" alt="logo"></a>
             </div>
             <!--este es el menu que esta en todas las paginas-->
-            <nav class="header__menu navbar navbar-expand-lg">
+            <nav class="header__menu navbar navbar-expand-lg navbar-light bg-faded">
                 <div class="container-fluid">
                     <div class="row">
-                        <button class="navbar-toggler boton-modificado" type="button" data-bs-toggle="collapse"
+                        <button class="navbar-toggler navbar-toggler-right boton_hamburguesa" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
                             aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon">
-                                <img src="../assets/imagenes/menuHambur.png" alt="menu hamburguesa">
-                            </span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item ">
                                     <a class="nav-link active header__menu--item" aria-current="page"
@@ -126,20 +123,65 @@
     <script src="../scripts/js/bootstrap.min.js"></script>
 
 </body>
-<div class="container-fluid container__pieDePagina">
-    <footer class="col-sm-12 col-md-12 col-lg-12">
-        <div class="row container__links">
-            <a href="../index.html" class="container__pieDePagina__link">Home</a>
-            <a href="catalogo.html" class="container__pieDePagina__link">Catalogo</a>
-            <a href="sobreNosotras.html" class="container__pieDePagina__link">Quienes somos?</a>
-            <a href="preguntasFrecuentes.html" class="container__pieDePagina__link">Pregunatas frecuentes</a>
-            <a href="contacto.html" class="container__pieDePagina__link">Contacto</a>
-
+<!-- Footer -->
+<footer class="container__pieDePagina">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <div class="me-5 d-none d-lg-block container__pieDePagina__title">
+        <span>Permanece conectado con nosotras en <a href="https://www.instagram.com/riabeachwear/" class="link-instragram">Instagram</a></span>
+      </div>
+    </section>
+    <section class="container__links">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="encabezados-footer">
+              Ria Beach Wear
+            </h6>
+            <img src="../assets/imagenes/logo.jpg" alt="logo Ria" class="header__logo">
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 container__links">
+            <!-- Links Productos-->
+            <p class="encabezados-footer">
+              Productos
+            </p>
+            <p>
+              <a href="catalogo.html" class="container__pieDePagina__link">Conjunto bikinis</a>
+            </p>
+            <p>
+              <a href="catalogo.html" class="container__pieDePagina__link">Sujetadores</a>
+            </p>
+            <p>
+              <a href="catalogo.html" class="container__pieDePagina__link">Bragas</a>
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <p class="encabezados-footer">
+              Links Utiles
+            </p>
+            <p>
+              <a href="../index.html" class="container__pieDePagina__link">Home</a>
+            </p>
+            <p>
+              <a href="catalogo.html" class="container__pieDePagina__link">Catalogo</a>
+            </p>
+            <p>
+              <a href="sobreNosotras.html" class="container__pieDePagina__link">Quienes somos?</a>
+            </p>
+            <p>
+              <a href="preguntasFrecuentes.html" class="container__pieDePagina__link">Pregunatas frecuentes</a>
+            </p>
+            <p>
+              <a href="contacto.html" class="container__pieDePagina__link">Contacto</a>
+            </p>
+          </div>
         </div>
-        <div>
-            <h6 class="container__pieDePagina__title">Todos los derechos reservados</h6>
-        </div>
-    </footer>
-</div>
+      </div>
+    </section>
+    <!-- Copyright -->
+    <div class="text-center p-2">
+      © 2021 Todos los derechos reservados
+    </div>
+  </footer>
 
 </html>

@@ -47,19 +47,19 @@
 
 .container__pieDePagina {
     background-color: $color-footer;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
+    font-family: $type-font;
+    color: $color-letras_footer;
+    
+    .encabezados-footer{
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: bold;
+    }
     .container__pieDePagina__title {
-        font-style: italic;
-        text-align: center;
         font-family: $type-font;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         color: $color-letras_footer;
     }
-
-
     .container__pieDePagina__link {
         text-align: left;
         text-decoration: none;
@@ -70,6 +70,16 @@
     }
 
     .container__pieDePagina__link:hover {
+        color: $color-salmon;
+    }
+
+    .link-instragram{
+        text-decoration: none;
+        color: $color-letras_footer;
+        font-family: $type-font;
+
+    }
+    .link-instragram:hover {
         color: $color-salmon;
     }
 }
